@@ -8,6 +8,19 @@
 A classic Tetris implementation in **C** with code coverage analysis, unit tests, and full documentation.
 
 ![Gameplay Screenshot](doxygen/images/game_screenshot.png)
+## Table of Contents
+- [✨ Features](#-features)
+- [🛠️ Installation](#️-installation)
+  - [🧰 Dependencies](#-dependencies)
+  - [🐧🍎 Linux/macOS](#-linuxmacos)
+- [🗂️ Project Structure](#️-project-structure)
+- [🧪 Testing](#-testing)
+- [📊 Code Coverage](#-code-coverage)
+- [📚 Documentation](#-documentation)
+- [🕹️ Keyboard Controls](#️-keyboard-controls)
+- [🔄 Development Workflow](#-development-workflow)
+- [🤝 Contributing](#-contributing)
+- [📜 License](#-license)
 
 ## ✨ Features
 

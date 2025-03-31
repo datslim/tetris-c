@@ -9,17 +9,17 @@ GUI_DIR=$(SRC_DIR)/gui/cli
 BUILD_DIR=./build
 OBJ_DIR=$(BUILD_DIR)/obj
 DOXYGEN_DIR=doxygen_files
-TEST_DIR=$(SRC_DIR)/unit-tests
+TEST_DIR=$(SRC_DIR)/unit_tests
 
 TETRIS_SRCS=$(filter-out $(TETRIS_DIR)/game_controller/game_controller.c, $(wildcard $(TETRIS_DIR)/*/*.c $(TETRIS_DIR)/*.c))
 GAME_SRCS=$(TETRIS_SRCS) $(TETRIS_DIR)/game_controller/game_controller.c
 GUI_SRCS=$(wildcard $(GUI_DIR)/*.c)
 MAIN_SRC=$(SRC_DIR)/main.c
-TEST_SRCS = unit-tests/test_main.c \
-            unit-tests/test_game_state.c \
-            unit-tests/test_game_field.c \
-            unit-tests/test_game_scoring.c \
-            unit-tests/test_game_tetromino.c
+TEST_SRCS = unit_tests/test_main.c \
+            unit_tests/test_game_state.c \
+            unit_tests/test_game_field.c \
+            unit_tests/test_game_scoring.c \
+            unit_tests/test_game_tetromino.c
 
 TEST_TETRIS_SRCS = $(TETRIS_DIR)/game.c \
                    $(TETRIS_DIR)/game_field/game_field.c \

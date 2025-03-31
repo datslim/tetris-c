@@ -15,7 +15,7 @@ A classic Tetris implementation in **C** with code coverage analysis, unit tests
 - 📈 **Score & level system** (higher score = higher level)
 - ⏱ **Dynamic difficulty** (speed increases with levels)
 - 🧪 **Unit tests** (powered by [Check](https://libcheck.github.io/check/))
-- 📊 **Code coverage** reporting via [gcov/lcov](https://gcc.gnu.org/onlinedocs/gcc/Gcov.html)
+- 📊 **Code coverage** (generated with [gcov/lcov](https://gcc.gnu.org/onlinedocs/gcc/Gcov.html)
 - 📚 **Documentation** (generated with [Doxygen](https://www.doxygen.nl/))
 
 

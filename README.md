@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)  
 [![Testing](https://img.shields.io/badge/Testing-Check-green)](https://libcheck.github.io/check/)   
-[![Coverage](https://img.shields.io/badge/Coverage-gcov/lcov-blue)](https://ltp.sourceforge.net/coverage/lcov.php)  
+[![Coverage](https://img.shields.io/badge/Coverage-gcov/lcov-blue)](https://gcc.gnu.org/onlinedocs/gcc/Gcov.html)  
 [![Docs](https://img.shields.io/badge/Docs-Doxygen-blueviolet)](https://www.doxygen.nl/)  
 
 A classic Tetris implementation in **C** with code coverage analysis, unit tests, and full documentation.

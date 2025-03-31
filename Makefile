@@ -68,7 +68,6 @@ gcov_report: clean
 dvi:
 	doxygen doxygen/Doxyfile
 	cp ./doxygen/images/game_screenshot.png ./doxygen_files/html/
-	cp ./tetris-FSM.png ./doxygen_files/html/
 	xdg-open $(DOXYGEN_DIR)/html/index.html
 
 dist: clean format

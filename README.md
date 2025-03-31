@@ -1,7 +1,7 @@
 # Tetris in C
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)  
-[![Testing](https://img.shields.io/badge/Testing-Check-green)](https://libcheck.github.io/check/) 
+[![Testing](https://img.shields.io/badge/Testing-Check-green)](https://libcheck.github.io/check/)   
 [![Coverage](https://img.shields.io/badge/Coverage-gcov/lcov-blue)](https://ltp.sourceforge.net/coverage/lcov.php)  
 [![Docs](https://img.shields.io/badge/Docs-Doxygen-blueviolet)](https://www.doxygen.nl/)  
 
@@ -9,23 +9,23 @@ A classic Tetris implementation in **C** with code coverage analysis, unit tests
 
 ![Gameplay Screenshot](doxygen/images/game_screenshot.png)
 
-## Features
+## ✨ Features
 
 - 🎮 **Classic Tetris mechanics** (rotation, movement, hard drop)
 - 📈 **Score & level system** (higher score = higher level)
 - ⏱ **Dynamic difficulty** (speed increases with levels)
 - 🧪 **Unit tests** (powered by [Check](https://libcheck.github.io/check/))
 - 📊 **Code coverage** reporting via [gcov/lcov](https://gcc.gnu.org/onlinedocs/gcc/Gcov.html)
-- 📖 **Documentation** (generated with [Doxygen](https://www.doxygen.nl/))
+- 📚 **Documentation** (generated with [Doxygen](https://www.doxygen.nl/))
 
 
-## Installation
+## 🛠️ Installation
 ```bash
 # Install the game 
 make install
 ```
 
-### Dependencies
+### 🧰 Dependencies
 
 - C compiler (GCC)
 - NCurses
@@ -35,7 +35,7 @@ make install
   - `graphviz` (for Doxygen diagrams)
   - `gcov\lcov` (for code coverage)
 
-### Linux/macOS
+### 🐧🍎 Linux/macOS
 
 ```bash
 # Install dependencies (Debian/Ubuntu)
@@ -45,7 +45,7 @@ sudo apt-get install libncurses5-dev libncursesw5-dev check graphviz lcov gcovr
 # Compile & run
 make
 ```
-## Project Structure
+## 🗂️ Project Structure
 ```
 tetris-c/  
 ├── brick_game/      # Source files for backend  
@@ -60,21 +60,21 @@ tetris-c/
 └── Makefile         # Build configuration  
 ```
 
-## Testing
+## 🧪 Testing
 Project includes unit tests using the Check framework:
 ```bash
 # Build and run tests
 make test
 ```
 
-## Code coverage
+## 📊 Code coverage
 Project includes code coverage test using the GCOV\LCOV:
 ```bash
 # Generate and open coverage report
 make gcov_report
 ```
 
-## Documentation
+## 📚 Documentation
 Generate HTML/LaTeX docs via Doxygen:
 ```bash
 # Generate  and open documentation
@@ -89,7 +89,7 @@ make dvi
 - **Q**: Quit to menu
 - **R**: Restart game
 
-## Development Workflow
+## 🔄 Development Workflow
 
 1. Write code in ```brick_game/```
 2. Add tests in ```unit_tests/```
@@ -99,7 +99,7 @@ make dvi
     ```
 4. Ensure coverage doesn't drop below 80% 
 
-## Contributing
+## 🤝 Contributing
 1. Fork the repository
 
 2. Create your feature branch (```git checkout -b feature/fooBar```)
@@ -110,7 +110,7 @@ make dvi
 
 5. Create a new Pull Request
 
-## License
+## 📜 License
 
 Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 

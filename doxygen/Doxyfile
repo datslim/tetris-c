@@ -1,0 +1,17 @@
+PROJECT_NAME           = "C7_BrickGame_v1.0-1"
+PROJECT_BRIEF          = "Игра Tetris, разработанная datslim (s21: lucoscly). Основанно на задании School21."
+IMAGE_PATH             = ./images
+INPUT                  = ./ ./mainpage.dox
+HTML_EXTRA_FILES       = ./images/game_screenshot.png
+OUTPUT_DIRECTORY       = ./doxygen_files
+RECURSIVE              = YES
+EXTRACT_ALL            = YES
+EXTRACT_STATIC         = YES
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+OPTIMIZE_OUTPUT_FOR_C  = YES
+HAVE_DOT = YES
+INCLUDE_GRAPH = NO
+INCLUDED_BY_GRAPH = NO
+DOT_IMAGE_FORMAT = png
+IMAGE_PATH = ./images
